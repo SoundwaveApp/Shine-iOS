@@ -5,10 +5,13 @@ This guide will walk you through adding Shine to your iOS application.
 
 To begin using Shine you will need to acquire your unique application key. Currently these applications keys are given out on an ad-hoc basis by Soundwave. Please contact Soundwave if you have not received your key or would like to enquire about receiving a key.
 
-**Requirements**
+###Requirements###
+
 Shine SDK requires iOS 7.1+
 
-**Manual Installation**
+
+###Manual Installation###
+
 Shine SDK needs to be installed manually.
 
  1. Download the latest shine from [BitBucket](https://bitbucket.org/david_lynch/shine-ios/)
@@ -21,3 +24,5 @@ Shine SDK needs to be installed manually.
  5. Search for “Other Linker Flags”.
  6. Double click the “Other Linker Flags” row’s value area, on the right side. A pop-up should appear.
  7. Add “-ObjC” by pressing the + button if it is hasn’t already been added
+
+![linker.png](https://bitbucket.org/repo/KLGaee/images/906851690-linker.png)
