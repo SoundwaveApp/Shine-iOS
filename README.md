@@ -38,3 +38,5 @@ To begin using shine follow these steps:
 
 #import <Shine/Shine.h>
 ```
+
+2. Add the following to your method `willFinishLaunchingWithOptions`. At this point you will need to provide your unique application key which is available by contacting Soundwave. 
