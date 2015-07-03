@@ -100,6 +100,6 @@ shineUser.email = @"john.smith@soundwave.com";
 **A**. Make sure you have added `-ObjC` to your **Other Linker Flags**
 
 -------
-**Q**. I get an error "Shine Authorization Failed: Please Enter A Valid Developer Key"
+**Q**. I get an error "*Shine Authorization Failed: Please Enter A Valid Developer Key*"
 
 **A**. Make sure you have a valid Developer Key and have entered it correctly. Please contact Soundwave to obtain a Developer Key.
