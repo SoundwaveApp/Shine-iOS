@@ -29,23 +29,46 @@ Shine SDK needs to be installed manually.
 
 #Usage#
 
+**Initializing Shine**
+
 To begin using shine follow these steps:
 
-1. Import Shine into your `AppDelegate` class
-   
+*  Import Shine into your `AppDelegate` class 
 ```
 #!objective-c
 
 #import <Shine/Shine.h>
 ```
 
-2. Add the following to your method `willFinishLaunchingWithOptions`. At this point you will need to provide your unique application key which is available by contacting Soundwave.
+* Add the following to your method `willFinishLaunchingWithOptions`. At this point you will need to provide your unique application key which is available by contacting Soundwave.
 
 ```
 #!objective-c
 
 - (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [Shine setAppToken:@"<Your-App-Token"];
+    [Shine setDeveloperKey:@"<Your-Dev-Key"];
     return YES;
 }
+```
+
+Once you have added this code, Shine will start capturing data once your app launches.
+
+
+**User Registration**
+
+You can capture user registration data by adding the following code to your app:
+
+```
+#!objective-c
+
+...
+//Create a new Shine user
+SWUser *shineUser = SWUser.new;
+shineUser.firstName = @"John";
+shineUser.lastName = @"Smith";
+shineUser.email = @"john.smith@soundwave.com";
+
+//Register the user with Shine
+[Shine registerUserDetails:shineUser];
+...
 ```
