@@ -27,9 +27,8 @@ Shine SDK needs to be installed manually.
 
 ![linker.png](https://bitbucket.org/repo/KLGaee/images/906851690-linker.png)
 
-#Usage#
 
-**Initializing Shine**
+#Initializing Shine#
 
 To begin using shine follow these steps:
 
@@ -54,7 +53,7 @@ To begin using shine follow these steps:
 Once you have added this code, Shine will start capturing data once your app launches.
 
 
-**User Registration**
+#User Registration#
 
 You can capture user registration data by adding the following code to your app:
 
