@@ -1,4 +1,4 @@
-##Shine iOS SDK##
+#Shine iOS SDK#
 This guide will walk you through adding Shine to your iOS application.
 
 ##Getting started##
@@ -26,3 +26,15 @@ Shine SDK needs to be installed manually.
  7. Add “-ObjC” by pressing the + button if it is hasn’t already been added
 
 ![linker.png](https://bitbucket.org/repo/KLGaee/images/906851690-linker.png)
+
+#Usage#
+
+To begin using shine follow these steps:
+
+1. Import Shine into your `AppDelegate` class
+   
+```
+#!objective-c
+
+#import <Shine/Shine.h>
+```
