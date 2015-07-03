@@ -47,7 +47,7 @@ To begin using shine follow these steps:
 #!objective-c
 
 - (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [Shine setDeveloperKey:@"<Your-Dev-Key"];
+    [Shine setDeveloperKey:@"<Your-Dev-Key>"];
     return YES;
 }
 ```
@@ -86,7 +86,7 @@ shineUser.email = @"john.smith@soundwave.com";
 
 - (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [Shine enableLogging];
-    [Shine setDeveloperKey:@"<Your-Dev-Key"];
+    [Shine setDeveloperKey:@"<Your-Dev-Key>"];
     return YES;
 }
 ```
