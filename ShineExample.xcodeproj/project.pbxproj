@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD51AA841B46A46400A4E2BE /* Shine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD51AA831B46A46400A4E2BE /* Shine.framework */; };
 		ADE8A6E31B457E51006F7D81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE8A6E21B457E51006F7D81 /* main.m */; };
-		ADE8A6E61B457E51006F7D81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE8A6E51B457E51006F7D81 /* AppDelegate.m */; };
-		ADE8A6E91B457E51006F7D81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE8A6E81B457E51006F7D81 /* ViewController.m */; };
-		ADE8A6EC1B457E51006F7D81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE8A6EA1B457E51006F7D81 /* Main.storyboard */; };
+		ADE8A6E61B457E51006F7D81 /* SWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE8A6E51B457E51006F7D81 /* SWAppDelegate.m */; };
 		ADE8A6EE1B457E51006F7D81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE8A6ED1B457E51006F7D81 /* Images.xcassets */; };
 		ADE8A6F11B457E51006F7D81 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADE8A6EF1B457E51006F7D81 /* LaunchScreen.xib */; };
 		ADE8A6FD1B457E51006F7D81 /* ShineExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE8A6FC1B457E51006F7D81 /* ShineExampleTests.m */; };
+		ADE8A70C1B458B27006F7D81 /* SWRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE8A70B1B458B27006F7D81 /* SWRegisterViewController.m */; };
+		ADE8A70F1B458BA5006F7D81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE8A70D1B458BA5006F7D81 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +28,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD51AA831B46A46400A4E2BE /* Shine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Shine.framework; sourceTree = "<group>"; };
 		ADE8A6DD1B457E51006F7D81 /* ShineExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShineExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE8A6E11B457E51006F7D81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADE8A6E21B457E51006F7D81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ADE8A6E41B457E51006F7D81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		ADE8A6E51B457E51006F7D81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ADE8A6E71B457E51006F7D81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ADE8A6E81B457E51006F7D81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		ADE8A6EB1B457E51006F7D81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADE8A6E41B457E51006F7D81 /* SWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWAppDelegate.h; sourceTree = "<group>"; };
+		ADE8A6E51B457E51006F7D81 /* SWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWAppDelegate.m; sourceTree = "<group>"; };
 		ADE8A6ED1B457E51006F7D81 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ADE8A6F01B457E51006F7D81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ADE8A6F61B457E51006F7D81 /* ShineExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShineExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE8A6FB1B457E51006F7D81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADE8A6FC1B457E51006F7D81 /* ShineExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShineExampleTests.m; sourceTree = "<group>"; };
+		ADE8A70A1B458B27006F7D81 /* SWRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRegisterViewController.h; sourceTree = "<group>"; };
+		ADE8A70B1B458B27006F7D81 /* SWRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRegisterViewController.m; sourceTree = "<group>"; };
+		ADE8A70E1B458BA5006F7D81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD51AA841B46A46400A4E2BE /* Shine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,12 +84,13 @@
 		ADE8A6DF1B457E51006F7D81 /* ShineExample */ = {
 			isa = PBXGroup;
 			children = (
-				ADE8A6E41B457E51006F7D81 /* AppDelegate.h */,
-				ADE8A6E51B457E51006F7D81 /* AppDelegate.m */,
-				ADE8A6E71B457E51006F7D81 /* ViewController.h */,
-				ADE8A6E81B457E51006F7D81 /* ViewController.m */,
-				ADE8A6EA1B457E51006F7D81 /* Main.storyboard */,
+				AD51AA831B46A46400A4E2BE /* Shine.framework */,
+				ADE8A6E41B457E51006F7D81 /* SWAppDelegate.h */,
+				ADE8A6E51B457E51006F7D81 /* SWAppDelegate.m */,
+				ADE8A70A1B458B27006F7D81 /* SWRegisterViewController.h */,
+				ADE8A70B1B458B27006F7D81 /* SWRegisterViewController.m */,
 				ADE8A6ED1B457E51006F7D81 /* Images.xcassets */,
+				ADE8A70D1B458BA5006F7D81 /* Main.storyboard */,
 				ADE8A6EF1B457E51006F7D81 /* LaunchScreen.xib */,
 				ADE8A6E01B457E51006F7D81 /* Supporting Files */,
 			);
@@ -199,7 +203,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADE8A6EC1B457E51006F7D81 /* Main.storyboard in Resources */,
+				ADE8A70F1B458BA5006F7D81 /* Main.storyboard in Resources */,
 				ADE8A6F11B457E51006F7D81 /* LaunchScreen.xib in Resources */,
 				ADE8A6EE1B457E51006F7D81 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +223,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADE8A6E91B457E51006F7D81 /* ViewController.m in Sources */,
-				ADE8A6E61B457E51006F7D81 /* AppDelegate.m in Sources */,
+				ADE8A6E61B457E51006F7D81 /* SWAppDelegate.m in Sources */,
 				ADE8A6E31B457E51006F7D81 /* main.m in Sources */,
+				ADE8A70C1B458B27006F7D81 /* SWRegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,20 +248,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ADE8A6EA1B457E51006F7D81 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ADE8A6EB1B457E51006F7D81 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ADE8A6EF1B457E51006F7D81 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				ADE8A6F01B457E51006F7D81 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		ADE8A70D1B458BA5006F7D81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADE8A70E1B458BA5006F7D81 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -299,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -337,7 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -349,8 +353,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ShineExample",
+				);
 				INFOPLIST_FILE = ShineExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -359,8 +370,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ShineExample",
+				);
 				INFOPLIST_FILE = ShineExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -418,6 +436,7 @@
 				ADE8A7021B457E51006F7D81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADE8A7031B457E51006F7D81 /* Build configuration list for PBXNativeTarget "ShineExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +445,7 @@
 				ADE8A7051B457E51006F7D81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
