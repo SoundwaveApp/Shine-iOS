@@ -1,3 +1,4 @@
+#Shine iOS SDK#
 ![Shine-01.png](https://bitbucket.org/repo/KLGaee/images/402993087-Shine-01.png)
 
 This guide will walk you through adding Shine to your iOS application.
