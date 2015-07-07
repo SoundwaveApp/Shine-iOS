@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD51AA841B46A46400A4E2BE /* Shine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD51AA831B46A46400A4E2BE /* Shine.framework */; };
+		AD3C1DB01B46C9C00070A9A1 /* Shine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD3C1DAF1B46C9C00070A9A1 /* Shine.framework */; };
 		ADE8A6E31B457E51006F7D81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE8A6E21B457E51006F7D81 /* main.m */; };
 		ADE8A6E61B457E51006F7D81 /* SWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE8A6E51B457E51006F7D81 /* SWAppDelegate.m */; };
 		ADE8A6EE1B457E51006F7D81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE8A6ED1B457E51006F7D81 /* Images.xcassets */; };
@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AD51AA831B46A46400A4E2BE /* Shine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Shine.framework; sourceTree = "<group>"; };
+		AD3C1DAF1B46C9C00070A9A1 /* Shine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Shine.framework; sourceTree = "<group>"; };
 		ADE8A6DD1B457E51006F7D81 /* ShineExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShineExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE8A6E11B457E51006F7D81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADE8A6E21B457E51006F7D81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD51AA841B46A46400A4E2BE /* Shine.framework in Frameworks */,
+				AD3C1DB01B46C9C00070A9A1 /* Shine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +84,7 @@
 		ADE8A6DF1B457E51006F7D81 /* ShineExample */ = {
 			isa = PBXGroup;
 			children = (
-				AD51AA831B46A46400A4E2BE /* Shine.framework */,
+				AD3C1DAF1B46C9C00070A9A1 /* Shine.framework */,
 				ADE8A6E41B457E51006F7D81 /* SWAppDelegate.h */,
 				ADE8A6E51B457E51006F7D81 /* SWAppDelegate.m */,
 				ADE8A70A1B458B27006F7D81 /* SWRegisterViewController.h */,
