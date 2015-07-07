@@ -8,6 +8,8 @@ This guide will walk you through adding Shine to your iOS application.
 
 To begin using Shine you will need to acquire your unique application key. Currently these applications keys are given out on an ad-hoc basis by Soundwave. Please contact Soundwave if you have not received your key or would like to enquire about receiving a key.
 
+Check out the example Shine app above for help getting started.
+
 ###Requirements###
 
 Shine SDK requires iOS 7.1+
