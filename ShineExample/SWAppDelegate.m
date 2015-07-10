@@ -18,8 +18,7 @@
 
 
 - (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [Shine enableVerboseLogging];
-    [Shine setDeveloperKey:@"f2b57e22d7bfddf43f857e1124cb6904"];
+    [Shine setDeveloperKey:@"<Your-Developer-Key>"];
     return YES;
 }
 
