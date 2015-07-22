@@ -30,7 +30,7 @@ Shine SDK needs to be installed manually.
  6. Double click the “Other Linker Flags” row’s value area, on the right side. A pop-up should appear.
  7. Add “-ObjC” by pressing the + button if it is hasn’t already been added
 
-![linker.png](https://bitbucket.org/repo/KLGaee/images/906851690-linker.png)
+![linker](https://cloud.githubusercontent.com/assets/3185423/8828333/841a2ed8-3089-11e5-8434-cb2e111eb12c.png)
 
 
 #Initializing Shine#
@@ -99,7 +99,7 @@ shineUser.email = @"john.smith@soundwave.com";
 
 **Q**. I get an error `Undefined symbols for architecture` 
 
-![Error.png](https://bitbucket.org/repo/KLGaee/images/221382079-Error.png)
+![Error](https://cloud.githubusercontent.com/assets/3185423/8828356/9d7f3cf6-3089-11e5-8ac7-4973e4266067.png)
 
 **A**. Make sure you have added `-ObjC` to your **Other Linker Flags**
 
