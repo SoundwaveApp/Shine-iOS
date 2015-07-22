@@ -78,7 +78,7 @@ shineUser.email = @"john.smith@soundwave.com";
 
 #Optional Integration Points#
 The following Shine integration points are not mandatory when using Shine.
-##Location Tracking##
+##Location Capture##
 Shine can capture a device's location if the host app has the required location services permissions.
 To capture location data, you need to add the following code to a class that conforms to the CLLocationDelegate protocol.
 ```objective-c
