@@ -78,7 +78,7 @@ shineUser.email = @"john.smith@soundwave.com";
 
 #Troubleshooting#
 ----------
-**Q**. I don't think Shine is capturing any data
+**Q**. _I don't think Shine is capturing any data_
 
 **A**. Turn on logging before you set your Developer Key. Shine logs will tell you if there are any problems capturing data.
 
@@ -93,13 +93,13 @@ shineUser.email = @"john.smith@soundwave.com";
 
 --------
 
-**Q**. I get an error `Undefined symbols for architecture` 
+**Q**. _I get an error "Undefined symbols for architecture"_
 
 ![Error](https://cloud.githubusercontent.com/assets/3185423/8828356/9d7f3cf6-3089-11e5-8ac7-4973e4266067.png)
 
 **A**. Make sure you have added `-ObjC` to your **Other Linker Flags**
 
 -------
-**Q**. I get an error "*Shine Authorization Failed: Please Enter A Valid Developer Key*"
+**Q**. _I get an error "*Shine Authorization Failed: Please Enter A Valid Developer Key*"_
 
 **A**. Make sure you have a valid Developer Key and have entered it correctly. Please contact Soundwave to obtain a Developer Key.
