@@ -19,7 +19,7 @@ Shine SDK requires iOS 7.1+
 
 Shine SDK needs to be installed manually.
 
- 1. Download the latest shine from [BitBucket](https://bitbucket.org/david_lynch/shine-ios/)
+ 1. Download the latest shine from [Github](https://github.com/SoundwaveApp/Shine-iOS/tree/master/Shine.framework)
  2. Drag Shine.framework into your Xcode project, ticking the “Copy items if needed” checkbox.
 
 **Add Other Linker Flag**
