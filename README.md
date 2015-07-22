@@ -76,6 +76,11 @@ shineUser.email = @"john.smith@soundwave.com";
 ...
 ```
 
+#Advanced Integration#
+
+##Location Tracking##
+
+
 #Troubleshooting#
 
 **Q**. _I don't think Shine is capturing any data_
