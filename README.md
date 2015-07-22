@@ -79,7 +79,26 @@ shineUser.email = @"john.smith@soundwave.com";
 #Advanced Integration#
 
 ##Location Tracking##
+Shine can capture a device's location if the host app has the required location services permissions.
+To capture location data, you need to add the following code to a class that conforms to the CLLocationDelegate protocol.
+```objective-c
 
+- (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {
+    [Shine updateLocation:locations];
+}
+```
+Shine location tracking works for both _**kCLAuthorizationStatusAuthorizedAlways**_ and _**kCLAuthorizationStatusAuthorizedWhenInUse**_. However, location data is only associated with song plays when the host app has _**kCLAuthorizationStatusAuthorizedAlways**_ permission.
+
+##Contacts Syncing##
+Shine can capture a device's contacts if the host app has the required contacts access permissions.
+```objective-c
+ABAddressBookRequestAccessWithCompletion(ABAddressBookCreateWithOptions(nil, nil), ^(bool granted, CFErrorRef error) {
+       if (granted) {
+           [Shine syncContacts];
+       }
+   });
+
+```
 
 #Troubleshooting#
 
