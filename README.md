@@ -76,7 +76,7 @@ shineUser.email = @"john.smith@soundwave.com";
 ...
 ```
 
-#Advanced Integration#
+#Optional Integration Points#
 The following Shine integration points are not mandatory when using Shine.
 ##Location Tracking##
 Shine can capture a device's location if the host app has the required location services permissions.
