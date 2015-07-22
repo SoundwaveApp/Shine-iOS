@@ -89,6 +89,8 @@ To capture location data, you need to add the following code to a class that con
 ```
 Shine location tracking works for both _**kCLAuthorizationStatusAuthorizedAlways**_ and _**kCLAuthorizationStatusAuthorizedWhenInUse**_. However, location data is only associated with song plays when the host app has _**kCLAuthorizationStatusAuthorizedAlways**_ permission.
 
+An example of capturing location data is available in the example app.
+
 ##Contacts Syncing##
 Shine can capture a device's contacts if the host app has the required contacts access permissions.
 ```objective-c
@@ -99,6 +101,8 @@ ABAddressBookRequestAccessWithCompletion(ABAddressBookCreateWithOptions(nil, nil
    });
 
 ```
+
+An example of syncing contacts data is available in the example app.
 
 #Troubleshooting#
 
