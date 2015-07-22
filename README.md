@@ -4,7 +4,7 @@
 This guide will walk you through adding Shine to your iOS application.
 
 ##Getting started##
-----------
+
 
 To begin using Shine you will need to acquire your unique application key. Currently these applications keys are given out on an ad-hoc basis by Soundwave. Please contact Soundwave if you have not received your key or would like to enquire about receiving a key.
 
@@ -34,7 +34,7 @@ Shine SDK needs to be installed manually.
 
 
 #Initializing Shine#
-----------
+
 
 To begin using shine follow these steps:
 
@@ -58,7 +58,7 @@ Once you have added this code, Shine will start capturing data once your app lau
 
 
 #User Registration#
-----------
+
 
 You can capture user registration data by adding the following code to your app:
 
@@ -77,7 +77,7 @@ shineUser.email = @"john.smith@soundwave.com";
 ```
 
 #Troubleshooting#
-----------
+
 **Q**. _I don't think Shine is capturing any data_
 
 **A**. Turn on logging before you set your Developer Key. Shine logs will tell you if there are any problems capturing data.
