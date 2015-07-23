@@ -14,6 +14,12 @@ Check out the example Shine app above for help getting started.
 
 Shine SDK requires iOS 7.1+
 
+###Cocoapods Installation###
+Shine can be installed using [Cocoapods](http://cocoapods.org). Simple add the following to your Podfile and run _pod install_.
+```bash
+
+pod 'Shine', '~>1.0'
+```
 
 ###Manual Installation###
 
