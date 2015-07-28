@@ -10,15 +10,39 @@
 		</data>
 		<key>Headers/Shine.h</key>
 		<data>
-		jnuUw07REOsTsKo8GOm+kjyal38=
+		Wfer6hXf5IfaQlXFopunZvKhTxc=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Hztpucw6yACCoX+bPQ8bhtTkIdk=
+		lwByOLjmjft/fJd+GcwJjgdMR5I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		uktMIoMnY9KbXc+ifBmXdptiwEo=
+		</data>
+		<key>SWShineModel.momd/SWShineModel.mom</key>
+		<data>
+		KeTIi0XUz577VOc4Ib2UC6ymSXY=
+		</data>
+		<key>SWShineModel.momd/VersionInfo.plist</key>
+		<data>
+		19sbxGq7v1iCnLr3vA92feH+89Q=
+		</data>
+		<key>ShineBundle.bundle/Info.plist</key>
+		<data>
+		TMW/Qm6vN96UAl+ORRx9sR3Kh3A=
+		</data>
+		<key>ShineBundle.bundle/SWShineModel.momd/SWShineModel.mom</key>
+		<data>
+		KeTIi0XUz577VOc4Ib2UC6ymSXY=
+		</data>
+		<key>ShineBundle.bundle/SWShineModel.momd/VersionInfo.plist</key>
+		<data>
+		19sbxGq7v1iCnLr3vA92feH+89Q=
+		</data>
+		<key>ShineBundle.bundle/ShineBundle</key>
+		<data>
+		ykyQd8ieKn1U8CuGjfOJlBAesKE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -29,11 +53,35 @@
 		</data>
 		<key>Headers/Shine.h</key>
 		<data>
-		jnuUw07REOsTsKo8GOm+kjyal38=
+		Wfer6hXf5IfaQlXFopunZvKhTxc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		uktMIoMnY9KbXc+ifBmXdptiwEo=
+		</data>
+		<key>SWShineModel.momd/SWShineModel.mom</key>
+		<data>
+		KeTIi0XUz577VOc4Ib2UC6ymSXY=
+		</data>
+		<key>SWShineModel.momd/VersionInfo.plist</key>
+		<data>
+		19sbxGq7v1iCnLr3vA92feH+89Q=
+		</data>
+		<key>ShineBundle.bundle/Info.plist</key>
+		<data>
+		TMW/Qm6vN96UAl+ORRx9sR3Kh3A=
+		</data>
+		<key>ShineBundle.bundle/SWShineModel.momd/SWShineModel.mom</key>
+		<data>
+		KeTIi0XUz577VOc4Ib2UC6ymSXY=
+		</data>
+		<key>ShineBundle.bundle/SWShineModel.momd/VersionInfo.plist</key>
+		<data>
+		19sbxGq7v1iCnLr3vA92feH+89Q=
+		</data>
+		<key>ShineBundle.bundle/ShineBundle</key>
+		<data>
+		ykyQd8ieKn1U8CuGjfOJlBAesKE=
 		</data>
 	</dict>
 	<key>rules</key>

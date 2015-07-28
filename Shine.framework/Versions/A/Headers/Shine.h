@@ -7,6 +7,8 @@
 
 @import UIKit;
 @import Foundation;
+@import CoreLocation;
+
 
 //! Project version number for Shine.
 FOUNDATION_EXPORT double ShineVersionNumber;
@@ -24,6 +26,11 @@ FOUNDATION_EXPORT const unsigned char ShineVersionString[];
 
 + (void)setDeveloperKey:(NSString *)token;
 + (void)registerUserDetails:(SWUser *)userDetails;
++ (void)updateLocation:(NSArray *)locations;
+
+#pragma mark - Permissions
+
++ (void)syncContacts;
 
 
 #pragma mark - Debug
