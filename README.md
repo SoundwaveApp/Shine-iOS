@@ -25,7 +25,7 @@ pod 'Shine', '~>1.1'
 
 Shine SDK can also be installed manually.
 
- 1. Download the latest Shine framework from [Github](https://github.com/SoundwaveApp/Shine-iOS/tree/master/Shine.framework)
+ 1. Download the latest Shine framework from the root folder of this repository. 
  2. Drag Shine.framework into your Xcode project, ticking the “Copy items if needed” checkbox.
 
 **Add Other Linker Flag**
