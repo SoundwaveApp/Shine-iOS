@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source              = { :git => "https://github.com/SoundwaveApp/Shine-iOS.git", :tag => s.version.to_s }
   s.frameworks          = ["Foundation", "CoreGraphics", "MobileCoreServices", "Security", "CoreData"]
   s.requires_arc        = true
-  s.platform            = :ios, '7.0'
+  s.platform            = :ios, '7.1'
   s.preserve_paths      = 'Shine.framework'
   s.public_header_files = 'Shine.framework/Versions/A/Headers/Shine.h'
   s.resource            = 'Shine.framework/Versions/A/Resources/ShineBundle.bundle'
