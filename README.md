@@ -91,6 +91,9 @@ The following Shine integration points are not mandatory when using Shine.
 Shine can capture a device's location if the host app has the required location services permissions.
 To capture location data, you need to add the following code to a class that conforms to the CLLocationDelegate protocol.
 ```objective-c
+#import <Shine/Shine.h>
+
+...
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {
     [Shine updateLocation:locations];
@@ -102,8 +105,11 @@ An example of capturing location data is available in the example app.
 
 ###Contacts Syncing###
 
-Shine can capture a device's contacts if the host app has the required contacts access permissions.
+Shine can capture a device's contacts if the host app has the required contacts access permissions. Make a call to `[Shine syncContacts]` after permission to access contacts has been granted.
+
 ```objective-c
+#import <Shine/Shine.h>
+
 ABAddressBookRequestAccessWithCompletion(ABAddressBookCreateWithOptions(nil, nil), ^(bool granted, CFErrorRef error) {
        if (granted) {
            [Shine syncContacts];
