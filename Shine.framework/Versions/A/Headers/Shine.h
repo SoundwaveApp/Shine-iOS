@@ -26,11 +26,11 @@ FOUNDATION_EXPORT const unsigned char ShineVersionString[];
 
 + (void)setDeveloperKey:(NSString *)token;
 + (void)registerUserDetails:(SWUser *)userDetails;
-+ (void)updateLocation:(NSArray *)locations;
 
 #pragma mark - Permissions
 
 + (void)syncContacts;
++ (void)updateLocation:(NSArray *)locations;
 
 
 #pragma mark - Debug

@@ -1,0 +1,6 @@
+framework module Shine {
+  umbrella header "Shine.h"
+
+  export *
+  module * { export * }
+}
