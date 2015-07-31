@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 `Shine-iOS` adheres to [Semantic Versioning](http://semver.org/).
 
 ---
+
+## [1.1.1](https://github.com/SoundwaveApp/Shine-iOS/releases/tag/1.1.1) (2015-07-31)
+
+#### Updated
+
+* Clarifications in contacts and location sync instructions
+* Improved debug logging
+
+
 ## [1.1](https://github.com/SoundwaveApp/Shine-iOS/releases/tag/1.1) (2015-07-28)
 
 #### What's New
