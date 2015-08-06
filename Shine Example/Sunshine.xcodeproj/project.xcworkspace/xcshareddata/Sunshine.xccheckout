@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>72F8F044-8C17-4573-971E-53D43088C57F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Sunshine</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DB04EE884423B978BADCACF8AB1B49364AFADD2B</key>
+		<string>https://github.com/SoundwaveApp/Shine-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Shine Example/Sunshine.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DB04EE884423B978BADCACF8AB1B49364AFADD2B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SoundwaveApp/Shine-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DB04EE884423B978BADCACF8AB1B49364AFADD2B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DB04EE884423B978BADCACF8AB1B49364AFADD2B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Shine-iOS-github</string>
+		</dict>
+	</array>
+</dict>
+</plist>
