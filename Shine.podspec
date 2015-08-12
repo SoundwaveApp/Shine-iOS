@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = "Shine"
-  s.version             = "1.2.0"
+  s.version             = "1.2.1"
   s.summary             = "The Shine iOS SDK, for integrating Shine into your iOS application."
   s.homepage            = "https://github.com/SoundwaveApp/Shine-iOS"
   s.license             = { :type => 'Apache 2.0', :file => 'LICENSE.txt' }
