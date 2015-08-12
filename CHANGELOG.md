@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.2.1](https://github.com/SoundwaveApp/Shine-iOS/releases/tag/1.2.1) (2015-08-12)
+
+#### Updated
+
+* Improved accuracy of play location tracking feature
+* Improved performance when interrupted by host app state transitions
+
+
 ## [1.2.0](https://github.com/SoundwaveApp/Shine-iOS/releases/tag/1.2.0) (2015-08-04)
 
 #### Updated
